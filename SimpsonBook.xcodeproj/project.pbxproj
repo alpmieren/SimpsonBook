@@ -13,6 +13,8 @@
 		059010AB278CA60400096911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059010A9278CA60400096911 /* Main.storyboard */; };
 		059010AD278CA60400096911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059010AC278CA60400096911 /* Assets.xcassets */; };
 		059010B0278CA60400096911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059010AE278CA60400096911 /* LaunchScreen.storyboard */; };
+		059010B8278CA76500096911 /* detailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059010B7278CA76500096911 /* detailsVC.swift */; };
+		059010BA278CAAC500096911 /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059010B9278CAAC500096911 /* Simpson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		059010AC278CA60400096911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		059010AF278CA60400096911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		059010B1278CA60400096911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		059010B7278CA76500096911 /* detailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsVC.swift; sourceTree = "<group>"; };
+		059010B9278CAAC500096911 /* Simpson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				059010A3278CA60400096911 /* AppDelegate.swift */,
 				059010A5278CA60400096911 /* SceneDelegate.swift */,
 				059010A7278CA60400096911 /* ViewController.swift */,
+				059010B7278CA76500096911 /* detailsVC.swift */,
+				059010B9278CAAC500096911 /* Simpson.swift */,
 				059010A9278CA60400096911 /* Main.storyboard */,
 				059010AC278CA60400096911 /* Assets.xcassets */,
 				059010AE278CA60400096911 /* LaunchScreen.storyboard */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				059010A8278CA60400096911 /* ViewController.swift in Sources */,
+				059010B8278CA76500096911 /* detailsVC.swift in Sources */,
 				059010A4278CA60400096911 /* AppDelegate.swift in Sources */,
 				059010A6278CA60400096911 /* SceneDelegate.swift in Sources */,
+				059010BA278CAAC500096911 /* Simpson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
